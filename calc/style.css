@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.calc-container {
+  width: 35rem;
+  height: 37.5rem;
+  margin: 5rem auto;
+  box-shadow: 0 0 0 2px #5e2485 ;
+}
+
+.screen {
+  width: 100%;
+  height: 120px;
+  background-color: #d4a5bd;
+  
+}
+
+.js_screen {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 5rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 330px 225px;
+  height: 480px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+button.key {
+  font-weight: 600;
+  color: #382b22;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  width: 90px;
+  height: 90px;
+  background: #ffffff;
+  border: 2px solid #5e2485;
+  transform-style: preserve-3d;
+}
+
+button.key::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+button.key:hover {
+  background: #ffe9e9;
+}
+
+
+
+.digits>.key {
+  margin: 10px 5px 10px 10px;
+}
+
+.other>.key {
+  margin: 10px 10px 10px 10px;
+}

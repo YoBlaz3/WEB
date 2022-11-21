@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(223, 223, 223);
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-weight: bold;
+}
+
+.header {
+	background-color: white;
+	padding: 1.25rem;
+	border-bottom: 2px solid rgb(0, 4, 247);
+}
+
+.main-menu ul {
+	display:  flex;
+	justify-content: flex-start;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu ul li:not(:last-child) {
+	margin-left: 20px;
+}
+
+.main-menu ul li:first-child {
+	margin-left: 0;
+}
+
+.profile {
+	margin-left: auto;
+}
+
+.container {
+	display: flex;
+	max-width: 95%;
+	margin: 0 auto;
+	
+}
+
+.sidebar {
+	width: 50%;
+	padding: 1.2rem 0;
+	margin-top: 1rem;
+	background-color: white;
+}
+
+.sidebar-btn {
+	text-align: center;
+}
+
+.page-content {
+	padding-left: 1rem;
+	background-image: url("images/backround.jpg");
+}
+
+.products-category-header {
+	margin-top: 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product-card {
+    display: flex;
+    height: 22rem;
+    width: 31rem;
+    border: 2px solid rgb(0, 192, 250);
+    border-radius: 5px;
+    padding: 10px;
+	background-color: 	white;
+}
+
+.product-image {
+	float: left;
+	width: 50%;
+    height: 100%;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-details header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.product-details .information {
+    text-align: justify;
+    font-size: 1.125rem;
+    height: 65%;
+    overflow: auto;
+}
+
+.control {
+    text-align: center;
+}
+
+.control .btn {
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.control .btn span {
+    padding: 0.7rem 1.25rem;
+    display: inline-block;
+}
+
+.control .price {
+    background-color: black;
+}
+
+.control .buy {
+    background-color: orange;
+    font-weight: bold;
+}
+
+.footer {
+	background-color: white;
+	color: gray;
+
+	padding: 1.25rem;
+	margin-top: 1rem;
+
+	border-top: 2px solid black;
+}
+
+.copyright {
+	margin-right: 1rem;
+}
+
+.product-details{
+	float: right;
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.page-content-header{
+	color: white;
+}
+
+
+
+
+
+

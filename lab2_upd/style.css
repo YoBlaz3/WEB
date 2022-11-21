@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+    background-image: url(images/background2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+    text-align: center;
+    
+}
+.header {
+	max-width: 75%;
+	margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+.first{
+    text-align: center;
+    height: 40px;
+}
+
+.second{
+    text-align: center;
+    height: 40px;
+}
+
+.third{
+    text-align: center;
+    height: 90px;
+}
+
+.fourth{
+    text-align: center;
+    height: 40px;
+}
+
+fieldset{
+    border: 0 none;
+}
+
+.fifth{
+    text-align: center;
+    height: 500px;
+}
+
+textarea{
+    resize: none;
+}
+
+.sixth{
+    text-align: center;
+    height: 40px;
+}
+
+.seventh{
+    text-align: center;
+    height: 40px;
+}
+
+.eighth{
+    text-align: center;
+    height: 40px;
+}

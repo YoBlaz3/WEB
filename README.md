@@ -8,4 +8,4 @@ Lab4 https://yoblaz3.github.io/WEB/lab4/
 
 Lab5 https://yoblaz3.github.io/WEB/lab5/
 
-Lab5 https://yoblaz3.github.io/WEB/lab6/
+Lab6 https://yoblaz3.github.io/WEB/lab6/

@@ -7,3 +7,5 @@ Lab3 https://yoblaz3.github.io/WEB/lab3_upd/
 Lab4 https://yoblaz3.github.io/WEB/lab4/
 
 Lab5 https://yoblaz3.github.io/WEB/lab5/
+
+Lab5 https://yoblaz3.github.io/WEB/lab6/

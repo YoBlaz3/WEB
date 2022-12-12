@@ -1,0 +1,19 @@
+.hero,
+.form {
+  background-color: yellow;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+
+
+.list__link {
+  text-decoration: none;
+  color: black;
+}
+.about{
+  background-color: black;
+  color: white;
+}
